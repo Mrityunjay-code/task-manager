@@ -31,7 +31,7 @@ function App() {
     return (
     <div className="wrapper">
       <br></br>
-      <h1 className="text-center">TODO-APP USING REACT-REDUX</h1>
+      <h1 className="text-center">Task Manager</h1>
       <Form editFormVisibility={editFormVisibility} editTodo={editTodo}
       cancelUpdate={cancelUpdate}/>
       <Todos handleEditClick={handleEditClick} editFormVisibility={editFormVisibility}/>
